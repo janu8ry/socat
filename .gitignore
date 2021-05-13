@@ -12,3 +12,4 @@ socat.egg-info
 # virtualenv
 venv
 .venv
+.python-version
