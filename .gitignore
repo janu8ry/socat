@@ -1,0 +1,14 @@
+# IDE config
+.idea
+
+# poetry lockfile
+poetry.lock
+
+# build
+build
+dist
+socat.egg-info
+
+# virtualenv
+venv
+.venv

@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "socat"
+version = "0.1.0"
+description = "event-based socket library."
+license = "LGPL-3.0"
+readme = "README.md"
+authors = ["janu8ry <janu8ry0108@gmail.com>"]
+homepage = "https://github.com/janu8ry/socat"
+repository = "https://github.com/janu8ry/socat"
+documentation = ""
+keywords = ["socket", "event", "network"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
