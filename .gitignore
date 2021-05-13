@@ -1,8 +1,9 @@
 # IDE config
 .idea
 
-# poetry lockfile
+# poetry
 poetry.lock
+poetry.toml
 
 # build
 build
